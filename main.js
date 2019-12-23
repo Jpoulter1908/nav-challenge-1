@@ -12,6 +12,9 @@ function clickHandler () {
   if (event.target.classList.contains('ac-button-js')) {
     selectTab(allCoursesTab);
   }
+  else if (event.target.classList.contains('link-ac-tab-js')) {
+    selectTab(allCoursesTab);
+  }
   else if (event.target.classList.contains('c-button-js')) {
     selectTab(collectionsTab);
   }
