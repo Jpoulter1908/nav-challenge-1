@@ -31,6 +31,7 @@ button {
 }
 
 .hidden {
+  /* display: none; */
   visibility: hidden;
 }
 
@@ -42,6 +43,7 @@ button {
   padding-left: 20%;
   width: 50%;
   margin: auto;
+  position: relative;
 }
 
 a {
@@ -51,7 +53,9 @@ a {
 }
 
 .close-banner {
-  float: right;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 
 .collections-tab {
